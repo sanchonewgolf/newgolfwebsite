@@ -1,0 +1,145 @@
+html, body{
+    margin:0px;
+    padding:0px;
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+ul {
+  height: 100px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #262626;
+}
+
+#nav_images img{
+  width: auto;
+  height: 71px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height:100px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.newgolf_photo {
+	min-width: 100%;
+	max-width: 100%;
+  	position: relative;
+  	top: 0;
+  	left: 0;
+}
+
+.image2 {
+	position: absolute;
+	top: 80%;
+ 	left: 45%;
+  	min-width: 10%;
+  	max-width: 10%;
+}
+.image2:hover {
+        opacity: 0.8;
+        filter: alpha(opacity=50);
+    }
+
+.parentaboutus {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.golfvirtualtxt { 
+	position:relative;
+	min-width: 90%;
+	max-width: 90%;
+	top:100px;
+	left:7.5%;
+
+}
+
+.fittingtxt { 
+	position:relative;
+	min-width: 90%;
+	max-width: 90%;
+	top:250px;
+	left:7.5%;
+}
+
+.clubs { 
+	position:absolute;
+	top:0;
+	left:60%;
+	min-width: 25%;
+  	max-width: 25%;
+
+}
+.buttondiv{
+	position:absolute;
+	left:15%;
+	
+}
+
+.button {
+	background-color: #262626;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+
+}
+
+.buttondiv1{
+	position:absolute;
+	left:15%;
+	
+}
+
+
+.button:hover {
+  background-color: #a8ff00;
+  color: white;
+}
+
+.trackman{
+	position:absolute;
+	top:0;
+	left:60%;
+	min-width: 30%;
+  	max-width: 30%;
+
+}
+
+.fittingtext{
+	padding-bottom: 30%;
+}
+
+.section02{
+position:absolute;
+}
