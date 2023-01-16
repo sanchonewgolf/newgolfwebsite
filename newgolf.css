@@ -151,4 +151,28 @@ position:absolute;
 	.clubs{
 		display:none;
 	}
+	.golfvirtualtxt { 
+		position:relative;
+		min-width: 90%;
+		max-width: 90%;
+		top:2vh;
+		left:7.5%;
+		text-align: left;
+
+}
+
+	.fittingtxt { 
+		position:relative;
+		min-width: 90%;
+		max-width: 90%;
+		top:12vh;
+		left:7.5%;
+		text-align: left;
+}	
+	.buttondiv{
+		left:25vw;
+}
+	.buttondiv1{
+		left:25vw;
+}
 }
