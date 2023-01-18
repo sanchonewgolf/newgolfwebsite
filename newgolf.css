@@ -91,7 +91,7 @@ li a:hover {
 
 .clubs { 
 	position:absolute;
-	top:5%;
+	top:0;
 	left:60%;
 	min-width: 20%;
   	max-width: 20%;
@@ -129,7 +129,7 @@ li a:hover {
 
 .trackman{
 	position:absolute;
-	top:0;
+	top:-60px;
 	left:60%;
 	min-width: 30%;
   	max-width: 30%;
