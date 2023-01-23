@@ -10,7 +10,7 @@ background-color:0;
 }
 
 ul {
-  height: 6.25rem;
+  height: 100px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@ ul {
 
 #nav_images img{
   width: auto;
-  height: 4.5rem;
+  height: 71px;
 
 }
 
@@ -32,8 +32,9 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 1rem;
+  padding: 14px 16px;
   text-decoration: none;
+  height:100px;
 }
 
 #languages img{
