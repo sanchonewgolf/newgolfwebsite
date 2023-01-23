@@ -53,6 +53,19 @@ float:right;
 }
 
 #languages li a{
+padding: 40px;
+}
+
+#socialmedia img{
+height:30px;
+width:30px;
+}
+
+#socialmedia li{
+float:right;
+}
+
+#socialmedia li a{
 padding: 35.5px;
 }
 

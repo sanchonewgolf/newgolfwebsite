@@ -48,6 +48,19 @@ float:right;
 padding: 35.5px;
 }
 
+#socialmedia img{
+height:30px;
+width:30px;
+}
+
+#socialmedia li{
+float:right;
+}
+
+#socialmedia li a{
+padding: 35.5px;
+}
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
