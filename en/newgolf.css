@@ -249,7 +249,7 @@ li {
 li a {
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 8px;
   text-decoration: none;
   display:block;
 }
@@ -269,7 +269,7 @@ float:right;
 }
 
 #languages li a{
-padding: 22px 12px;
+padding: 22px 8px;
 }
 
 #socialmedia img{
@@ -282,7 +282,7 @@ float:right;
 }
 
 #socialmedia li a{
-padding: 25px 20px;
+padding: 25px 15px;
 }
 
 #linkedin img{
@@ -360,7 +360,7 @@ li {
 li a {
   color: white;
   text-align: center;
-  padding: 14px 8px;
+  padding: 14px 16px;
   text-decoration: none;
   display:block;
 }
@@ -380,7 +380,7 @@ float:right;
 }
 
 #languages li a{
-padding: 22px 8px;
+padding: 22px 12px;
 }
 
 #socialmedia img{
@@ -393,7 +393,7 @@ float:right;
 }
 
 #socialmedia li a{
-padding: 25px 15px;
+padding: 25px 20px;
 }
 
 #linkedin img{
