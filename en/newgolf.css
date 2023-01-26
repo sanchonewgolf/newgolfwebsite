@@ -23,6 +23,8 @@ ul {
 
 }
 
+
+
 li {
   float: left;
 }
@@ -35,6 +37,12 @@ li a {
   text-decoration: none;
   height:100px;
 }
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
 
 #languages img{
 height: 20px;
@@ -61,9 +69,17 @@ float:right;
 padding: 35.5px;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+#linkedin img{
+height:30px;
+width:30px;
+}
+
+#linkedin li{
+float:right;
+}
+
+#linkedin li a{
+padding: 35.5px;
 }
 
 .parent {
@@ -200,4 +216,77 @@ position:absolute;
 	.buttondiv1{
 		left:25vw;
 }
+ul {
+  height: 70px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #262626;
+}
+
+#nav_images img{
+  width: auto;
+  height: 35.5px;
+
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display:block;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+#languages img{
+height: 10px;
+}
+
+#languages li{
+float:right;
+}
+
+#languages li a{
+padding: 25px 12px;
+}
+
+#socialmedia img{
+height:15px;
+width:15px;
+}
+
+#socialmedia li{
+float:right;
+}
+
+#socialmedia li a{
+padding: 25px 20px;
+}
+
+#linkedin img{
+height:15px;
+width:15px;
+}
+
+#linkedin li{
+float:right;
+display:none;
+}
+
+#linkedin li a{
+padding: 25px 20px;
+}
+
 }
