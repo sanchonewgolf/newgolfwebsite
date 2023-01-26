@@ -187,16 +187,16 @@ position:absolute;
 
 @media screen and (max-width:800px) {
 	.trackman{
-	position:relative;
-	top:-6vh;
-	left:20%;
-	min-width: 50%;
-  	max-width: 50%;
+		position:relative;
+		top:-15px;
+		left:20%;
+		min-width: 55%;
+  		max-width: 55%;
 
 }
 	.clubs{
-	display:none;
-}
+		display:none;
+	}
 	.golfvirtualtxt { 
 		position:relative;
 		min-width: 90%;
@@ -206,20 +206,23 @@ position:absolute;
 		text-align: left;
 
 }
-
 	.fittingtxt { 
 		position:relative;
 		min-width: 90%;
 		max-width: 90%;
-		top:10vh;
+		top:16vh;
 		left:7.5%;
 		text-align: left;
 }	
+
+	.titleText{
+		font-size: 23px; 
+}
 	.buttondiv{
 		left:25vw;
 }
 	.buttondiv1{
-		top:36vh;
+		top:45vh;
 		left:25vw;
 }
 ul {
@@ -255,9 +258,6 @@ li a:hover {
   background-color: #111;
 }
 
-.titleText{
-font-size: 23px; 
-}
 
 #languages img{
 height: 10px;
@@ -299,3 +299,4 @@ padding: 25px 20px;
 }
 
 }
+
