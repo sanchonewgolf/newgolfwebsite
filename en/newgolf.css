@@ -126,10 +126,10 @@ padding: 35.5px;
 	position:relative;
 	min-width: 90%;
 	max-width: 90%;
-	top:25px;
+	top:12vh;
 	left:7.5%;
 	text-align: left;
-}	
+}		
 
 .clubs { 
 	position:absolute;
@@ -207,15 +207,15 @@ position:absolute;
 		text-align: left;
 
 }
-
 	.fittingtxt { 
 		position:relative;
 		min-width: 90%;
 		max-width: 90%;
-		top:12vh;
+		top:25px;
 		left:7.5%;
 		text-align: left;
 }	
+
 	.titleText{
 		font-size: 23px; 
 }
