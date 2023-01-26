@@ -187,11 +187,20 @@ position:absolute;
 
 @media screen and (max-width:800px) {
 	.trackman{
-		display:none;
-	}
+		position:relative;
+		top:-50px;
+		left:19%;
+		min-width: 55%;
+  		max-width: 55%;
+
+}
 	.clubs{
 		display:none;
 	}
+	
+	.titleText{
+		font-size: 23px; 
+}
 	.golfvirtualtxt { 
 		position:relative;
 		min-width: 90%;
