@@ -187,8 +187,13 @@ position:absolute;
 
 @media screen and (max-width:800px) {
 	.trackman{
-		display:none;
-	}
+		position:relative;
+		top:-50px;
+		left:19%;
+		min-width: 55%;
+  		max-width: 55%;
+
+}
 	.clubs{
 		display:none;
 	}
@@ -210,10 +215,14 @@ position:absolute;
 		left:7.5%;
 		text-align: left;
 }	
+	.titleText{
+		font-size: 23px; 
+}
 	.buttondiv{
 		left:25vw;
 }
 	.buttondiv1{
+		top:250px;
 		left:25vw;
 }
 ul {
