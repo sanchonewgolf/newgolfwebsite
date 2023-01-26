@@ -126,9 +126,10 @@ padding: 35.5px;
 	position:relative;
 	min-width: 90%;
 	max-width: 90%;
-	top:25vh;
+	top:25px;
 	left:7.5%;
-}
+	text-align: left;
+}	
 
 .clubs { 
 	position:absolute;
