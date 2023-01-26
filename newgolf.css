@@ -69,6 +69,19 @@ float:right;
 padding: 35.5px;
 }
 
+#linkedin img{
+height:30px;
+width:30px;
+}
+
+#linkedin li{
+float:right;
+}
+
+#linkedin li a{
+padding: 35.5px;
+}
+
 .parent {
   position: relative;
   top: 0;
@@ -259,6 +272,20 @@ float:right;
 }
 
 #socialmedia li a{
+padding: 25px 20px;
+}
+
+#linkedin img{
+height:15px;
+width:15px;
+}
+
+#linkedin li{
+float:right;
+display:none;
+}
+
+#linkedin li a{
 padding: 25px 20px;
 }
 
