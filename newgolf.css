@@ -185,7 +185,7 @@ padding: 35.5px;
 position:absolute;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:650px) {
 	.trackman{
 		position:relative;
 		top:-50px;
@@ -301,7 +301,7 @@ padding: 25px 20px;
 }
 
 
-@media screen and (max-width:800px) and (min-width:650px){
+@media screen and (max-width:800px) and (min-width:651px){
 	.trackman{
 		display:none;
 
