@@ -299,3 +299,114 @@ padding: 25px 20px;
 }
 
 }
+
+@media screen and (max-width:800px) and (min-width:650px){
+	.trackman{
+		display:none;
+
+}
+	.clubs{
+		display:none;
+	}
+	.golfvirtualtxt { 
+		position:relative;
+		min-width: 90%;
+		max-width: 90%;
+		top:2vh;
+		left:7.5%;
+		text-align: left;
+
+}
+	.fittingtxt { 
+		position:relative;
+		min-width: 90%;
+		max-width: 90%;
+		top:6rem;
+		left:7.5%;
+		text-align: left;
+}	
+
+	.titleText{
+		font-size: 23px; 
+}
+	.buttondiv{
+		left:25vw;
+}
+	.buttondiv1{
+		top:19rem;
+		left:25vw;
+}
+ul {
+  height: 70px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #262626;
+}
+
+#nav_images img{
+  width: auto;
+  height: 35.5px;
+
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display:block;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+#languages img{
+height: 10px;
+}
+
+#languages li{
+float:right;
+}
+
+#languages li a{
+padding: 22px 12px;
+}
+
+#socialmedia img{
+height:15px;
+width:15px;
+}
+
+#socialmedia li{
+float:right;
+}
+
+#socialmedia li a{
+padding: 25px 20px;
+}
+
+#linkedin img{
+height:15px;
+width:15px;
+}
+
+#linkedin li{
+float:right;
+display:none;
+}
+
+#linkedin li a{
+padding: 25px 20px;
+}
+
+}
