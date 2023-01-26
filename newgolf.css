@@ -198,9 +198,6 @@ position:absolute;
 		display:none;
 	}
 	
-	.titleText{
-		font-size: 23px; 
-}
 	.golfvirtualtxt { 
 		position:relative;
 		min-width: 90%;
@@ -219,10 +216,14 @@ position:absolute;
 		left:7.5%;
 		text-align: left;
 }	
+	.titleText{
+		font-size: 23px; 
+}
 	.buttondiv{
 		left:25vw;
 }
 	.buttondiv1{
+		top:250px;
 		left:25vw;
 }
 ul {
