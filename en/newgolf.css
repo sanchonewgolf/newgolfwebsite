@@ -126,10 +126,9 @@ padding: 35.5px;
 	position:relative;
 	min-width: 90%;
 	max-width: 90%;
-	top:12vh;
+	top:25vh;
 	left:7.5%;
-	text-align: left;
-}		
+}
 
 .clubs { 
 	position:absolute;
@@ -185,6 +184,7 @@ padding: 35.5px;
 .section02{
 position:absolute;
 }
+
 
 @media screen and (max-width:650px) {
 	.trackman{
