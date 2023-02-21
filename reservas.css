@@ -4,6 +4,10 @@ html, body{
 
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 ul {
   height: 100px;
   list-style-type: none;
@@ -17,6 +21,52 @@ ul {
   width: auto;
   height: 71px;
 
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height:100px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+#socialmedia img{
+height:30px;
+width:30px;
+}
+
+#socialmedia li{
+float:right;
+}
+
+#socialmedia li a{
+padding: 35.5px;
+}
+
+#linkedin img{
+height:30px;
+width:30px;
+}
+
+#linkedin li{
+float:right;
+}
+
+#linkedin li a{
+padding: 35.5px;
 }
 
 li {
@@ -39,9 +89,9 @@ li a:hover {
 }
 
 .calendly-inline-widget { 
-	right: 12vw !important; 
-	min-width:15vh;
-	height:80vh;
+	right: 215px !important; 
+	min-width:320px;
+	height:750px;
 	position: relative;
 } 
 
@@ -129,7 +179,7 @@ li a:hover {
 
 .container{
 position:absolute;
-top:40%;
+top:25%;
 left:75%;
 width:20%;
 }
@@ -139,18 +189,161 @@ background-color: #262626
 
 }
 
-@media screen and (max-width:1200px) {
-	.caption-container {
-		display:none;
-	}
-	.container{
-		display:none;
-	}
-	.numbertext{
-		display:none;
-	}
-	.prev,
-	.next {
-		display:none;
+@media screen and (max-width:650px) {
+.container{
+	display:none;
 }
 
+.calendly-inline-widget { 
+	right: 0vw !important; 
+	min-width:15vh;
+	height:80vh;
+	position: relative;
+} 
+
+ul {
+  height: 70px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #262626;
+}
+
+#nav_images img{
+  width: auto;
+  height: 35.5px;
+
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  display:block;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+#socialmedia img{
+height:15px;
+width:15px;
+}
+
+#socialmedia li{
+float:right;
+}
+
+#socialmedia li a{
+padding: 25px 15px;
+}
+
+#linkedin img{
+height:15px;
+width:15px;
+}
+
+#linkedin li{
+float:right;
+display:none;
+}
+
+#linkedin li a{
+padding: 25px 20px;
+}
+
+}
+
+
+@media screen and (max-width:800px) and (min-width:651px){
+
+.container{
+	display:none;
+}
+
+.calendly-inline-widget { 
+	right: 0vw !important; 
+	min-width:15vh;
+	height:80vh;
+	position: relative;
+} 
+
+	.titleText{
+		font-size: 25px; 
+}
+	.buttondiv{
+		left:25vw;
+}
+	.buttondiv1{
+		top:10rem;
+		left:25vw;
+}
+ul {
+  height: 70px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #262626;
+}
+
+#nav_images img{
+  width: auto;
+  height: 35.5px;
+
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display:block;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+#socialmedia img{
+height:15px;
+width:15px;
+}
+
+#socialmedia li{
+float:right;
+}
+
+#socialmedia li a{
+padding: 25px 20px;
+}
+
+#linkedin img{
+height:15px;
+width:15px;
+}
+
+#linkedin li{
+float:right;
+}
+
+#linkedin li a{
+padding: 25px 20px;
+}
+
+}
