@@ -17,12 +17,48 @@ ul {
   background-color: #262626;
 }
 
+.card {
+  position:absolute;
+  background-color:#262626;
+  opacity: 0.8;
+  bottom:0px;
+  width:100%;
+  z-index: 1000;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #d2d2dc;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+  box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+}
+
+.button1{
+
+	background-color: #262626;
+	border: none;
+	color: white;
+	padding: 7px 16px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+
+}
+
+.button1:hover {
+  background-color: #a8ff00;
+  color: white;
+}
+
 #nav_images img{
   width: auto;
   height: 71px;
 
 }
-
 
 
 li {
@@ -42,7 +78,6 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
 
 #languages img{
 height: 20px;
@@ -107,6 +142,15 @@ padding: 35.5px;
         filter: alpha(opacity=50);
     }
 
+.cookiestxt { 
+	position:relative;
+	min-width: 90%;
+	max-width: 90%;
+	top:10vh;
+	left:7.5%;
+
+}
+
 .parentaboutus {
 	position: relative;
 	top: 0;
@@ -121,6 +165,7 @@ padding: 35.5px;
 	left:7.5%;
 
 }
+
 
 .fittingtxt { 
 	position:relative;
