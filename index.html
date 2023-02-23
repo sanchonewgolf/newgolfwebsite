@@ -66,9 +66,23 @@ function acceptCookieConsent(){
 <script>
 let cookie_consent = getCookie("user_cookie_consent");
 if(cookie_consent != ""){
-    document.getElementById("cookieNotice").style.display = "none";
-<!-- Google tag (gtag.js) -->
-	src="https://www.googletagmanager.com/gtag/js?id=G-DL4GYVVCMT"
+      document.getElementById("cookieNotice").style.display = "none";
+  	const script = document.createElement('script');
+  	script.id = '__script__id__';
+ 	script.type = 'text/javascript';
+ 	script.async = true;
+  	script.src = 'https://www.googletagmanager.com/gtag/js?id=G-DL4GYVVCMT';
+  	document.head.append(script);
+}
+</script>
+
+<!-- remaining scripts go here -->
+
+<!-- injected script will end up here -->
+
+<script>
+if(cookie_consent != ""){
+<!-- Rest of Google tag (gtag.js) -->
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
@@ -91,7 +105,9 @@ if(cookie_consent != ""){
 	<noscript><img height="1" width="1" style="display:none"
 	="https://www.facebook.com/tr?id=5878392438910230&ev=PageView&noscript=1"
 	}
-</script>	
+</script>
+
+<!-- End Meta Pixel Code -->
 	
 <div id="cookieNotice" class="card">
 
