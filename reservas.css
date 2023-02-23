@@ -42,6 +42,17 @@ li a:hover {
   background-color: #111;
 }
 
+#languages img{
+height: 20px;
+}
+
+#languages li{
+float:right;
+}
+
+#languages li a{
+padding: 40px;
+}
 
 #socialmedia img{
 height:30px;
@@ -234,6 +245,19 @@ li a:hover {
   background-color: #111;
 }
 
+#languages img{
+height: 10px;
+}
+
+#languages li{
+float:right;
+}
+
+#languages li a{
+padding: 22px 8px;
+}
+
+
 #socialmedia img{
 height:15px;
 width:15px;
@@ -318,6 +342,18 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+#languages img{
+height: 10px;
+}
+
+#languages li{
+float:right;
+}
+
+#languages li a{
+padding: 22px 12px;
 }
 
 #socialmedia img{
