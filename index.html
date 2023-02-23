@@ -91,9 +91,6 @@ function getCookie(cname) {
 
 // Set cookie consent
 function acceptCookieConsent(){
-	deleteCookie('user_cookie_consent');
-    	setCookie('user_cookie_consent', 1, 30);
-    	document.getElementById("cookieNotice").style.display = "none";
     	<!-- Google tag (gtag.js) -->
     	async src="https://www.googletagmanager.com/gtag/js?id=G-DL4GYVVCMT">
      	window.dataLayer = window.dataLayer || [];
@@ -115,6 +112,15 @@ function acceptCookieConsent(){
 	<noscript><img height="1" width="1" style="display:none"
 	="https://www.facebook.com/tr?id=5878392438910230&ev=PageView&noscript=1"
 	}
+	
+</script>
+<script>
+	let cookie_consent = getCookie("user_cookie_consent");
+		if(cookie_consent != ""){
+    			document.getElementById("cookieNotice").style.display = "none";
+		}else{
+    			document.getElementById("cookieNotice").style.display = "block";
+		}
 </script>
 
 	
