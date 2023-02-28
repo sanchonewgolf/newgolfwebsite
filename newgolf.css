@@ -18,7 +18,7 @@ ul {
 }
 
 .card {
-  position:absolute;
+  position:fixed;
   left:25%;
   text-align:left;
   color:#ffffff;
