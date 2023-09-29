@@ -29,6 +29,14 @@ ul {
   background-color:#262626;
 }
 
+.cookiestxt { 
+	position:relative;
+	min-width: 90%;
+	max-width: 90%;
+	left:3.5%;
+
+}
+
 .button1{
       	position:relative;
       	left:45%;
